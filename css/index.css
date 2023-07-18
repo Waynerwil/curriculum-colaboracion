@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    border: 1px solid black;
+}
+header > img{
+    width: 80px;
+    height: 100%;
+    background-color: rebeccapurple;
+    margin-right: 25%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+#slide01{
+    padding-left: 15px;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#slide01>ul{
+    list-style: none;
+}
+.contCircles{
+    display: flex;
+    flex-direction: row;
+}
+.contCircles > div{
+    width:20px;
+    height: 20px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+
+#slide02{
+    padding-left: 15px;
+}
+#slide02-div>ul{
+    padding-left: 15px;
+}
