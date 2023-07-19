@@ -1,0 +1,29 @@
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 1000px;
+    padding:15px;
+}
+#slideLeft{
+    padding-left: 10px;
+background-color:teal;
+width: 20%;
+height: 1000px;
+color: white;
+border-radius: 5px;
+}
+#slideRigth{
+    background-color:whitesmoke;
+    width: 80%;
+    height: 1000px;
+    justify-content: center;
+    font-size:medium;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#aaa {
+    color: teal
+}
