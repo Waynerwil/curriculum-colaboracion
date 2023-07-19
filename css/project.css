@@ -1,0 +1,114 @@
+.contenedorpapa{
+    display: flex;
+
+}
+
+.contenedorIzquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(231, 136, 136);
+    color:white;
+    width: 100%;
+    border-radius: 50px;
+    
+
+
+}
+
+.textoIzquierda{
+    margin-left: 30px;
+}
+
+.margen{
+    padding-left: 100px;
+}
+
+.contenedorDerecha{
+    background-color: rgb(238, 223, 214);
+    /* padding: 100px; */
+    /* padding-left: 100px; */
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.laboraleExperince{
+    margin-top: 230px;
+}
+
+.nombre{
+    padding-left: 100px;
+}
+
+.img{
+    width: 150px;
+}
+
+.file{
+    border-radius: 10%;
+    background: rgb(217, 164, 164);
+}
+.file::-moz-progress-bar{
+    border-radius: 10%;
+    background:rgb(230, 219, 219);
+}
+
+.file::-webkit-progress-value{
+    border-radius: 10%;
+    background:rgb(217, 164, 164);
+    
+}
+.file::-webkit-progress-bar{
+    border-radius: 10%;
+    background:rgb(252, 252, 252);
+
+}
+
+.contenedorCirculos{
+    display: flex;
+    padding-bottom: 20px;
+
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #e3b3a7;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color:rgb(238, 223, 214);
+    /* position: absolute; */
+    z-index:100;
+    font-weight:700;
+    font-size:2em;
+  }
+  .raya{
+    background-color: #e2aa9c6a;
+    padding: 40px;
+    position:absolute;
+    bottom: 340px;
+    width: 92%;
+    justify-content: flex-end;
+    /* text-align: right; */
+  }
+
+  .raya_contenedorDerecha{
+    background-color: #e2aa9c6a;
+    padding: 20px;
+    position:absolute;
+    bottom: 340px;
+    width: 45.8%;
+    /* justify-content: flex-end; */
+    /* text-align: right; */
+    text-align: center;
+  }
